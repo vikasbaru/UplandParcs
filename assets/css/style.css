@@ -1,0 +1,337 @@
+
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 200;
+    background-image: url(../img/white-body-element.png);
+   background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+b, strong {
+    font-weight: 700;
+}
+.container {
+    max-width: 1180px;
+}
+.btn {
+    border-radius: 0;
+    padding: 10px 20px;
+}
+.text-right{
+    text-align: right;
+}
+.custom-button.yellow{
+    
+    color: #ffd400;
+    border-radius: 10px;
+    border: 1px solid #ffd400;
+    font-family: 'Amiko', sans-serif;
+    font-weight: 400;
+   
+}
+.custom-button.yellow:hover{
+    
+    background-color: #ffd400;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ffd400;
+    
+}
+.custom-button.orange{
+    
+    color: #ec6c1f;
+    border-radius: 10px;
+    border: 1px solid #ec6c1f;
+    font-family: 'Amiko', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.custom-button.orange:hover{
+    
+    background-color: #ec6c1f;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ec6c1f;
+    
+}
+.btn:focus{
+    box-shadow: none;
+}
+.libre-light {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 200;
+}
+.fs-63{
+    font-size: 63px;
+}
+
+.fs-41{
+    font-size: 41px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-21{
+    font-size: 21px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.color-white{
+    color: #fff;
+}
+.color-black{
+    color: #000;
+}
+.color-orange{
+    color: #ec6c1f;
+}
+
+.btn-primary {
+    background: #ff6600;
+    border-color: #ff6600;
+}
+.btn-primary:hover, .btn-primary:focus {
+    background: #fff;
+    color: #ff6600;
+    border-color: #ff6600;
+    box-shadow: none!important;
+} 
+section{
+    padding: 70px 0px;
+}
+
+#hero {
+    background: url(../img/banner.jpg) right;
+    background-size: cover;
+    min-height: 90vh;
+}
+#hero::before{
+    content: "";
+    background-image: url(../img/white-body-element.png);
+   background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+nav.navbar {
+    background: #fff;
+   }
+nav .top-btns {
+    position: relative;
+    top: -8px;
+}
+.dropdown-toggle::before {
+    display: inline-block;
+    margin-right: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+.dropdown-toggle::after {
+    display: none;
+    
+}
+ul.navbar-nav li.contact{
+    display: inherit;
+}
+ul.navbar-nav li.contact::after{
+content: "";
+width: 1px;
+background-color: #fff;
+height: 24px;
+margin-top: 8px;
+}
+.navbar-brand img {
+    max-width: calc(100% - 24px);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+ul.navbar-nav{
+    background-color: #000000;
+}
+ul.navbar-nav li a.nav-link{
+    color: #fff!important;
+    background-color: #000000;
+}
+ul.navbar-nav li a.nav-link:hover{
+    color: #ec6c1f!important;
+    
+}
+
+
+.navbar-dark .navbar-nav.main-nav .nav-link {
+    padding-left: 0.875rem;
+    padding-right: 0.875rem;
+    font-size: 0.875rem;
+}
+
+
+.box-shadow{
+    box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
+}
+
+#box-four{
+        margin-top: -140px;
+}
+#zor{
+    background-color: #82a44c;
+}
+
+#zor .list-custom ul li{
+list-style: none;
+position: relative;
+color: #fff;
+font-size: 20px;
+font-family: 'Libre Franklin', sans-serif;
+font-weight: 200;
+padding-left: 60px;
+margin-bottom: 30px;
+}
+#zor .list-custom ul li:last-child{
+margin-bottom:0px ;
+}
+#zor .list-custom ul li::before{
+    content: "";
+    background-image: url(../img/zor-icon.png);
+    background-repeat: no-repeat;
+    left: 0px;
+    background-size: contain;
+    position: absolute;
+    z-index: 99999;
+    width: 35px;
+    height: 24px;
+    }
+
+footer {
+    background: #0f0f0f;
+    padding:70px 0px;
+    background-image: url(../img/footer-element.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+   
+}
+footer p{
+    line-height: 25px;
+}
+.footer-logo{
+    position: relative;
+    top: -30px;
+}
+.social-icons ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+.social-icons ul li:last-child{
+margin-right: 0px;
+}
+.social-icons ul li a{
+    color: #ec6c1f;
+    font-size: 20px;
+    border: 1px solid #ec6c1f;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center
+}
+.social-icons ul li a:hover{
+    color: #fff;
+    border: 1px solid #fff;
+}
+.address ul li, .address ul li a{
+    padding-left: 0px;
+    font-size: 16px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 200;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.address ul li a:hover{
+    color: #ec6c1f;  
+}
+.copyright{
+    position: relative;
+}
+#back-to-top{
+    position: fixed;
+    right: 10px;
+    bottom: 60px;
+    background-color:#ec6c1f;
+    color: #fff;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link{
+          padding-right: 1rem;
+    padding-left: 1rem;
+    }
+    .navbar-expand-lg .navbar-nav{
+       position: relative;
+       bottom: -24px; 
+    }
+   
+}
+@media (max-width: 991px) {
+    ul.navbar-nav li.contact::after{
+        content: none;
+    }
+    ul.navbar-nav{
+        text-align: left;
+    }
+    ul.navbar-nav li a.nav-link{
+        padding-left: 30px;
+    }
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        z-index: 99;
+        
+        right: 0.8rem;
+        left: 0.8rem;
+    }
+    #box-four {
+        margin-top: 0px; 
+    }
+    footer h6{
+        margin-top: 48px;
+    }
+    #zor img{
+        width: 100%;
+    }
+   
+}
+@media (max-width: 767px) {
+    
+    
+}
+@media (max-width: 480px) {
+    nav .top-btns{
+        display: none;
+    } 
+    .box-inner{
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+    .fs-63 {
+        font-size: 45px;
+    }
+    
+}
